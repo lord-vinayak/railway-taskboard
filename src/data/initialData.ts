@@ -35,9 +35,9 @@ export const initialCircuits: CircuitRow[] = [
     lastEditedAt: null, 
     auditTrail: [],
     subRows: [
-      { id: 'c13-1', srNo: 13.1, name: 'CGDB/BRJN', failureDateTime: '02-03-2025 14:00', restorationDateTime: null, durationMinutes: null, faultySection: 'BRJN', remarks: 'Out of 26, 12 nos CGDB of PF No 01,not working due to data sending problem. (Company - Patronics Pvt Ltd // No AMC)', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
-      { id: 'c13-2', srNo: 13.2, name: 'CGDB/RIG', failureDateTime: '12-09-2025 18:00', restorationDateTime: null, durationMinutes: null, faultySection: 'RIG', remarks: 'At RIG/STN CGDB of PF No 02, out of 24 boards 04 no boards (Board No 01 04) are not working due to OSU work.', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
-      { id: 'c13-3', srNo: 13.3, name: 'CGDB NIA', failureDateTime: '19/11/2025 14:00', restorationDateTime: null, durationMinutes: null, faultySection: 'NIA', remarks: 'At NIA/STN PF No 04, out of 23 CGDB, 03 nos board (21, 22, 23) not working due to control card faulty.', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
+      { id: 'c13-1', srNo: 13.1, name: 'CGDB/BRJN', failureDateTime: '2025-03-02T14:00', restorationDateTime: null, durationMinutes: null, faultySection: 'BRJN', remarks: 'Out of 26, 12 nos CGDB of PF No 01,not working due to data sending problem. (Company - Patronics Pvt Ltd // No AMC)', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
+      { id: 'c13-2', srNo: 13.2, name: 'CGDB/RIG', failureDateTime: '2005-09-12T18:00', restorationDateTime: null, durationMinutes: null, faultySection: 'RIG', remarks: 'At RIG/STN CGDB of PF No 02, out of 24 boards 04 no boards (Board No 01 04) are not working due to OSU work.', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
+      { id: 'c13-3', srNo: 13.3, name: 'CGDB NIA', failureDateTime: '2025-11-19T14:00', restorationDateTime: null, durationMinutes: null, faultySection: 'NIA', remarks: 'At NIA/STN PF No 04, out of 23 CGDB, 03 nos board (21, 22, 23) not working due to control card faulty.', status: 'FAULTY', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
     ]
   },
   { id: 'c14', srNo: 14, name: 'CABLE FAILURE 06Qd/OFC', failureDateTime: null, restorationDateTime: null, durationMinutes: null, faultySection: '', remarks: '', status: 'OK', lastEditedBy: null, lastEditedAt: null, auditTrail: [] },
